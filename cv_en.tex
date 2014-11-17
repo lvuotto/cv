@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+% ------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+\usepackage{lipsum}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[utf8]{inputenc}
+
+
+% ------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+% ------------------------------------------------------------------------------
+
+
+\firstname{Lucas} % Your first name
+\familyname{Vuotto} % Your last name
+
+%\title{Curriculum Vitae}
+%\address{123 Broadway}{City, State 12345}
+\mobile{+54 9 11 6293-2923}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{lvuotto@dc.uba.ar}
+\homepage{github.com/lvuotto}{Github profile}
+
+
+% ------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+% ------------------------------------------------------------------------------
+% EDUCATION SECTION
+% ------------------------------------------------------------------------------
+
+
+\section{Education}
+
+\cventry{2011--ongoing}{Licenciatura en Ciencias de la Computación (equivalent
+to B.Sc. + M.Sc. in Computer Science)}{University of Buenos Aires}{}
+{\textit{GPA 7.5} (10.0 scale)}{Expected Graduation 2017}
+\cventry{2012--ongoing}{Licenciatura en Ciencias Matemáticas (equivalent to
+B.Sc. + M.Sc. in Math)}{University of Buenos Aires}{}{\textit{GPA 6.8}
+(10.0 scale)}{Expected Graduation 2018}
+\cventry{2005--2011}{Highschool diploma}{}{}{}{Business orientation.}
+
+
+% ------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+% ------------------------------------------------------------------------------
+
+
+\section{Experience}
+
+\subsection{Miscellaneous}
+
+\cventry{July, 2012--November, 2012}{Exhibiter}{Tecnópolis}{Villa
+Marteli, Buenos Aires}{}{Explanaiton of physics and mathematical concepts to
+people with almost no knowledge in maths and science.}
+
+
+% ------------------------------------------------------------------------------
+% PROJECTS
+% ------------------------------------------------------------------------------
+
+
+\section{Courses \& Projects}
+
+\cvitem{C / C++ / Assembly}{Implementation of B \& B+ trees to run under the
+Parallella board, parallelization of the search and insertion algorithms, and
+research to conclude if is worth to use those data structures as databases
+indexes under the Parallella board, providing a greener solution to the classic
+server hardware. \textit{Ongoing}}
+\cvitem{C}{Implementation of a PNM image manipulation library, able to create
+images from scratch, read and parse existing images, write an image to a file,
+and modificate individual pixels.}
+\cvitem{C / Assembly}{Implementation of a basic multitask kernel that runs under
+protected mode.}
+
+
+% ------------------------------------------------------------------------------
+% LANGUAGES SECTION
+% ------------------------------------------------------------------------------
+
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+
+
+% ------------------------------------------------------------------------------
+% COMPUTER SKILLS SECTION
+% ------------------------------------------------------------------------------
+
+
+\section{Computer skills}
+
+\cvitem{Advanced}{C}
+\cvitem{Intermediate}{C++, Ruby, Intel x86-64 Assembler, PHP, HTML + CSS + JS}
+\cvitem{Basic}{Python, GNU Make, \LaTeX, Git, Linux}
+
+
+% ------------------------------------------------------------------------------
+% INTERESTS SECTION
+% ------------------------------------------------------------------------------
+
+
+\section{Interests}
+
+%~ \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{}{System programming, Parallel programming, Music, Playing instruments,
+Data structures and algorithms, Graphical computing, Gaming, Algebra, Topology,
+Reading, Cryptography.}
+
+
+% ------------------------------------------------------------------------------
+% TRANSCRIPT
+% ------------------------------------------------------------------------------
+
+
+%~ \section{Academic Transcript}
+%~ 
+%~ \begin{center}
+  %~ \begin{tabular}{c}
+    %~ \Large{\textsc{Bachelor's Degree in Computer Science}}\\ \\
+%~ 
+    %~ \begin{tabular}{l c}
+      %~ \textbf{Subject} & \textbf{Grade (10.0 scale)}\\ \hline
+      %~ \textsc{Algebra I} & 2, 10 (resit)\\
+      %~ \textsc{Calculus I} & 8\\
+      %~ \textsc{Data structures and algorithms I} & 10\\ \hline
+      %~ \textbf{Average} & \textbf{7.5}
+    %~ \end{tabular}
+  %~ \end{tabular}
+%~ \end{center}
+%~ 
+%~ \cvline{\textbf{Currently Taking}}{Data scructures and algorithms III, Operating
+%~ Systems, Complex systems on distributed machines (elective).}
+%~ 
+%~ \cvline{\textbf{Pending finals}}{Data structures and algorithms II, Computer
+%~ organization I, Computer organization II.}
+
+
+% ------------------------------------------------------------------------------
+% COVER LETTER
+% ------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%~ \clearpage
+%~ 
+%~ \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State}
+%~ \date{\today} % Letter date
+%~ \opening{Dear Sir or Madam,} % Opening greeting
+%~ \closing{Sincerely yours,} % Closing phrase
+%~ \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%~ 
+%~ \makelettertitle % Print letter title
+%~ 
+%~ \lipsum[1-3] % Dummy text
+%~ 
+%~ \makeletterclosing % Print letter signature
+
+% ------------------------------------------------------------------------------
+
+\end{document}
